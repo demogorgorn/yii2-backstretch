@@ -1,6 +1,6 @@
 {
     "name": "demogorgorn/yii2-backstretch",
-    "description": "Yii2 wrapper for jquery-backstretch, a simple jQuery plugin that allows you to add a dynamically-resized, slideshow-capable background image to any page or element. (https://github.com/srobbin/jquery-backstretch)",
+    "description": "Yii2 wrapper for jquery-backstretch, a simple jQuery plugin that allows you to add a dynamically-resized, slideshow-capable background image to any page or element. (https://github.com/danielgindi/jquery-backstretch)",
     "keywords": ["yii2", "extension", "widget", "lazy-load", "background", "images"],
     "homepage": "https://github.com/demogorgorn/yii2-backstretch",
     "type": "yii2-extension",
@@ -14,7 +14,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "bower-asset/jquery-backstretch": "*"
+        "bower-asset/jquery-backstretch-2": "*"
     },
     "autoload": {
         "psr-4": {

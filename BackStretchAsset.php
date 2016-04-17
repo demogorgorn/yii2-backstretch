@@ -15,7 +15,7 @@ namespace demogorgorn\backstretch;
 class BackStretchAsset extends \yii\web\AssetBundle
 {
 
-    public $sourcePath = '@bower/jquery-backstretch/';
+    public $sourcePath = '@bower/jquery-backstretch-2/';
     public $js = [ 'jquery.backstretch.min.js' ];
 	
 	public $depends = [
