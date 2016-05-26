@@ -27,6 +27,8 @@ class BackStretch extends \yii\base\Widget
 
     public $attachElement = null;
 
+    public $imagePrefix = null;
+
     /**
      * Runs the widget
      *
@@ -45,6 +47,12 @@ class BackStretch extends \yii\base\Widget
     {
         $view = $this->getView();
         BackStretchAsset::register($view);
+
+        if ($this->imagePrefix != null) {
+            foreach ($images as &$image) {
+                $image = $this->imagePrefix . $image;
+            }
+        }
 
         $options = Json::encode($this->options, JSON_NUMERIC_CHECK);
 
