@@ -49,7 +49,7 @@ class BackStretch extends \yii\base\Widget
         BackStretchAsset::register($view);
 
         if ($this->imagePrefix != null) {
-            foreach ($images as &$image) {
+            foreach ($this->images as &$image) {
                 $image = $this->imagePrefix . $image;
             }
         }
